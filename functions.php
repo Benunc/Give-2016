@@ -7,7 +7,7 @@
 /*
  * Enqueue the parent style.css
  *
- * twentyfifteen parent theme for twentfifteen-child
+ * twentysixteen parent theme for twentsixteen-child
  *
  */
 add_action( 'wp_enqueue_scripts', 'give_2016_enqueue_styles' );
