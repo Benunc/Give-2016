@@ -34,12 +34,19 @@ body.single-give_forms div.entry-summary {
     }
 
     div[id*="give-form-content"] {
-        float: right;
+        float: none;
         width: 71.42857144%;
+        margin: 0 auto;
+    }
+
+    body.single-give_forms .entry-title {
+        text-align: center;
     }
 
     body.single-give_forms div.entry-summary {
         margin-bottom: 1.826086957em !important;
+        float:right;
+        width:72%;
     }
 
     body.single-give_forms.no-sidebar div[id*="give-form-content"] {
@@ -69,6 +76,7 @@ body.single-give_forms div.entry-summary {
 
     body.single-give_forms article.give_forms .images {
         margin: 0 0 40px 0;
+        float: left;
 
     }
 
