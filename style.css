@@ -149,38 +149,39 @@ body.single-give_forms div.entry-summary {
     body.post-type-archive-give_forms .my-give-archive-form footer.entry-footer p {
         margin: 0;
     }
+    body.post-type-archive-give_forms .my-give-archive-form .image-wrap {
+        max-height: 236px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    body.post-type-archive-give_forms .my-give-archive-form .give-goal-progress {
+        position: absolute;
+        max-width: 100%;
+        margin: 0 auto;
+        opacity: 0;
+        text-align: center;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0,0.8);
+        padding: 10%;
+        color: white;
+        -webkit-transition: all 600ms ease-in-out;
+        -moz-transition: all 600ms ease-in-out;
+        -ms-transition: all 600ms ease-in-out;
+        -o-transition: all 600ms ease-in-out;
+        transition: all 600ms ease-in-out;
+    }
+    body.post-type-archive-give_forms .my-give-archive-form:hover .give-goal-progress {
+        opacity: 1;
+    }
+    body.post-type-archive-give_forms .my-give-archive-form .give-goal-progress .income {
+        color: white;
+        display: block;
+    }   
 }
 
-body.post-type-archive-give_forms .my-give-archive-form .image-wrap {
-    max-height: 236px;
-    overflow: hidden;
-    position: relative;
-}
 
-body.post-type-archive-give_forms .my-give-archive-form .give-goal-progress {
-    position: absolute;
-    max-width: 100%;
-    margin: 0 auto;
-    opacity: 0;
-    text-align: center;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0,0,0,0.8);
-    padding: 10%;
-    color: white;
-    -webkit-transition: all 600ms ease-in-out;
-    -moz-transition: all 600ms ease-in-out;
-    -ms-transition: all 600ms ease-in-out;
-    -o-transition: all 600ms ease-in-out;
-    transition: all 600ms ease-in-out;
-}
-body.post-type-archive-give_forms .my-give-archive-form:hover .give-goal-progress {
-    opacity: 1;
-}
-body.post-type-archive-give_forms .my-give-archive-form .give-goal-progress .income {
-    color: white;
-    display: block;
-}
 
