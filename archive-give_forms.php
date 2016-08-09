@@ -17,17 +17,8 @@ get_header();
     <div id="primary" class="content-area">
         <main id="main" class="site-main give-archive" role="main">
             <?php
-            /**
-             *  Display only Give donation forms
-             */
-            $args = array(
-                'post_type'      => 'give_forms',
-                'posts_per_page' => 10
-            );
 
-            $wp_query = new WP_Query( $args );
-
-            if ( $wp_query->have_posts() ) : ?>
+            if ( have_posts() ) : ?>
 
                 <h1 class="my-give-archive-title">All The Ways You Can Support Us</h1>
                 <hr/>
@@ -35,7 +26,7 @@ get_header();
                 <?php
                 do_action('my-give-before-archive-loop');
 
-                while ( $wp_query->have_posts() ) : $wp_query->the_post();?>
+	            while ( have_posts() ) : the_post();?>
                     <div class="my-give-archive-form">
                         <?php
                         do_action('my-give-before-archive-form');
