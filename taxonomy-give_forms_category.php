@@ -1,6 +1,6 @@
 <?php
 /**
- *  Used to display an archive page of Give Donation forms with the category "Staff Members."
+ *  Used to display an archive page of Give Donation forms from a certain category.
  *
  *  This file is designed for use with the "default" twenty sixteen theme, and distributed as a sample
  *  Always test archive templates before using on production sites.
