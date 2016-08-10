@@ -72,13 +72,13 @@ body.single-give_forms div.entry-summary {
 
     }
 
-    body.post-type-archive-give_forms .my-give-archive-form {
+    .my-give-archive-form {
         margin: 0 5% 0 0;
         display: inline-block;
         float: left;
         width: 45%;
     }
-    body.post-type-archive-give_forms .my-give-archive-form:nth-child(even):after {
+    .my-give-archive-form:nth-child(even):after {
         content: ' ';
         display: block;
         float: none;
@@ -86,7 +86,7 @@ body.single-give_forms div.entry-summary {
         margin-bottom: 2rem;
     }
 
-    body.post-type-archive-give_forms .my-give-archive-form article {
+    .my-give-archive-form article {
         overflow: hidden;
         margin-bottom: 20px;
         padding: 20px 0;
@@ -94,7 +94,7 @@ body.single-give_forms div.entry-summary {
         border-width: 0 0 6px 0;
     }
 
-    body.post-type-archive-give_forms .my-give-archive-form article .entry-title {
+    .my-give-archive-form article .entry-title {
         font-size: 120%;
         text-align: left;
         margin: 0 0 0 1em;
@@ -107,14 +107,14 @@ body.single-give_forms div.entry-summary {
         clear: none;
     }
 
-    body.post-type-archive-give_forms .my-give-archive-form article .entry-meta	{
+    .my-give-archive-form article .entry-meta	{
         display: inline-block;
         width: calc(100% - 40% - 1em);
         margin-left: 1em;
         float: left;
     }
 
-    body.post-type-archive-give_forms .my-give-archive-form article .entry-meta p {
+    .my-give-archive-form article .entry-meta p {
         margin: 0;
         line-height: 1.5;
         vertical-align: text-bottom;
@@ -123,7 +123,7 @@ body.single-give_forms div.entry-summary {
         font-style: italic;
     }
 
-    body.post-type-archive-give_forms .my-give-archive-form article a.post-thumbnail {
+    .my-give-archive-form article a.post-thumbnail {
         margin: 0 0 1em 0;
         float: left;
         display: inline-block;
@@ -132,13 +132,13 @@ body.single-give_forms div.entry-summary {
         width: 40%;
     }
 
-    body.post-type-archive-give_forms .my-give-archive-form div.excerpt {
+    .my-give-archive-form div.excerpt {
         width: calc(100% - 40% - 1em);
         margin: 0 0 0 1em;
         display: inline-block;
     }
 
-    body.post-type-archive-give_forms .my-give-archive-form footer.entry-footer {
+    .my-give-archive-form footer.entry-footer {
         margin: 0;
         width: 100%;
         text-align: center;
@@ -146,16 +146,16 @@ body.single-give_forms div.entry-summary {
         background: rgba(0,0,0,0.2);
     }
 
-    body.post-type-archive-give_forms .my-give-archive-form footer.entry-footer p {
+    .my-give-archive-form footer.entry-footer p {
         margin: 0;
     }
-    body.post-type-archive-give_forms .my-give-archive-form .image-wrap {
+    .my-give-archive-form .image-wrap {
         max-height: 236px;
         overflow: hidden;
         position: relative;
     }
 
-    body.post-type-archive-give_forms .my-give-archive-form .give-goal-progress {
+    .my-give-archive-form .give-goal-progress {
         position: absolute;
         max-width: 100%;
         margin: 0 auto;
@@ -174,10 +174,10 @@ body.single-give_forms div.entry-summary {
         -o-transition: all 600ms ease-in-out;
         transition: all 600ms ease-in-out;
     }
-    body.post-type-archive-give_forms .my-give-archive-form:hover .give-goal-progress {
+    .my-give-archive-form:hover .give-goal-progress {
         opacity: 1;
     }
-    body.post-type-archive-give_forms .my-give-archive-form .give-goal-progress .income {
+    .my-give-archive-form .give-goal-progress .income {
         color: white;
         display: block;
     }   
