@@ -11,6 +11,7 @@
  *
  */
 add_action( 'wp_enqueue_scripts', 'give_2016_enqueue_styles' );
+
 function give_2016_enqueue_styles() {
 
     $parent_style = 'twentysixteen-css';
@@ -22,7 +23,7 @@ function give_2016_enqueue_styles() {
 add_filter('body_class', 'give_archive_no_sidebar');
 
 function give_archive_no_sidebar($classes) {
-    if ( is_post_type_archive('give_forms') ) {
+    if ( is_post_type_archive('give_forms') || is_tax( 'give_forms_category') ) {
         $classes[] = 'no-sidebar';
     }
     return $classes;
